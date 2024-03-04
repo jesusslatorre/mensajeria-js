@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/css/alertify.min.css" rel="stylesheet"/>
+    <title>Mensajería JavaScript</title>
+</head>
+
+<body>
+
+    <div id="identificacion">
+        <input type="text" id="identificador" placeholder="Nombre">
+        <button id="bLogin">LogIn</button>
+    </div>
+
+
+
+    <div id="mensajes" class="messages-container">
+        <!-- Los mensajes aparecerán aquí -->
+    </div>
+
+    <div id="div-mensaje">
+        <input type="text" id="mensaje" placeholder="Mensaje">
+        <button id="bEnviar">Enviar</button>
+    </div>
+
+    <script src="gestorcredenciales.js"></script>
+    <script src="motor.js" type="module"></script>
+    <script src="app.js"></script> <!-- Script para manejar la lógica de los mensajes -->
+    <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.0/build/alertify.min.js"></script>
+    
+</body>
+
+</html>
