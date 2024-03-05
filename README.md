@@ -10,5 +10,5 @@ App web programada en JavaScript utilizando Realtime Database de Firebase.
 
 
 ## 🛠 Tecnologías utilizadas
-JavaScript, HTML5, CSS.
+JavaScript, HTML5, CSS, Visual Studio.
 
