@@ -1,11 +1,19 @@
 
-# Chat a tiempo real en JavaScript 
+# Chat a tiempo real en JavaScript [En construcción]
 
-App web de chat en tiempo real programada en JavaScript utilizando Firebase.<br><br>
+Chat en tiempo real programado en JavaScript utilizando Firebase como socket.<br><br>
   Cuenta con:
   <ul>
-    <li>LogIn de usuario en cookies</li>
-    <li>Recarga a alta velocidad de los mensajes</li>
+    <li>Identificación de usuarios</li>
+    <li>Carga instantánea de los mensajes</li>
+  </ul>
+
+  Funciones pendientes:
+    <ul>
+    <li>Autenticación de usuarios</li>
+    <li>Optimización y mejora del diseño</li>
+    <li>Poder compartir imágenes y documentos</li>
+  
   </ul>
   
 
